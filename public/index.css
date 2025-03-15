@@ -1,0 +1,149 @@
+body {
+  /* background-image: url('images/img1.jpg');  */
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: black;
+  margin: 0;
+  text-align: center;
+}
+
+.header {
+  text-align: right;
+  padding: 10px;
+}
+
+.logout-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+  width: 80%;
+ 
+  border-radius: 10px;
+ 
+}
+
+.game-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quiz-section {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.quiz-image {
+  margin: 20px 0;
+  text-align: center;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.input-group {
+  margin-top: 20px;
+}
+
+.answer-input {
+  width: 15%;
+  padding: 10px;
+  font-size: 1.2em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.button {
+  background-color: #0000FF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #00008B;
+}
+
+
+.status-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-left: 20px; 
+}
+
+.status-box {
+  width: 100px;  
+  height: 100px; 
+  margin: 10px 0; 
+  padding: 5px;  
+  font-size: 1.2em;  
+  background-color: #FFEB3B;
+  border-radius: 10px; 
+  text-align: center;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  
+}
+
+.status-box div {
+  margin: 2px 0; 
+}
+
+.timer #time {
+  font-size: 1.2em; 
+}
+
+.timer #time::after {
+  content: "s"; 
+}
+
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 100px;
+}
+
+.modal-content { 
+  background: rgba(252, 252, 252, 0.8);
+  margin: auto; padding: 20px;
+  border-radius: 10px;
+  width: 50%; text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
