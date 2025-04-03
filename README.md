@@ -115,7 +115,20 @@ Background music is implemented with volume control and autoplay fallbacks to ha
 The design adapts to different screen sizes with specific breakpoints at 600px and 350px widths.
 
 ###Screenshots
+Login Page
+![login](https://github.com/user-attachments/assets/37f4acd3-87b2-4bbb-91ae-fe13f594e9ed)
+
+Home Page
+![Game](https://github.com/user-attachments/assets/8c300642-aa08-4bc5-a9d7-b085dd71b987)
+
+Game Interfacae
+![game interface](https://github.com/user-attachments/assets/b98450ae-4483-414e-ab89-3b97ba6e96da)
+
+Leaderboard
 ![Leaderboard](https://github.com/user-attachments/assets/52f32873-c041-4a7f-8077-0d938cb620d2)
+
+Feedback Form
+![feedback](https://github.com/user-attachments/assets/5f14e6ab-3129-4c01-b68b-22005aac97ab)
 
 
 ## Future Enhancements
